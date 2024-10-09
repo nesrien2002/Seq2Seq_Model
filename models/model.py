@@ -136,6 +136,7 @@ history = model.fit([X_train, padded_ar[:len(X_train)]],  # Encoder input
 model.save('/home/nesrien/Downloads/language_translation_model.keras')
 
 # Test with known input sentences
+# Not tested yet
 test_sentences = [
     "as in mother id like to fuck",  # Adjust based on your training set
     "i must go"
